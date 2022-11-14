@@ -1,8 +1,8 @@
 package com.mattmatthias.quickstart.exception;
 
-public class DummyAlreadyExistsException extends Exception{
+public class DummyAlreadyExistsException extends RuntimeException{
 
-    DummyAlreadyExistsException(String message) {
+    public DummyAlreadyExistsException(String message) {
         super(message);
     }
 }
